@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { Header, Segment, Grid, Form, Button, Divider, Icon } from 'semantic-ui-react';
 import { useHistory } from "react-router-dom";
 
-import MenuPrincipal from "../../components/MenuPrincipal/index";
+import MainMenu from "../../components/MainMenu/index";
 import Footer from "../../components/Footer/index";
 
 const Login = () => { 
 
     return (
         <div>
-            <MenuPrincipal/> 
+            <MainMenu/> 
             <Segment style={{ padding: '10em 0em' }} vertical secondary>
                 <Grid container stackable verticalAlign='middle' columns={3}>
                     <Grid.Row centered style={{ padding: '2em 2em' }}>

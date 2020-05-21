@@ -14,14 +14,14 @@ import {
     Visibility, } from 'semantic-ui-react';
 
 //import './index.css';
-import MenuPrincipal from "../../components/MenuPrincipal/index";
+import MainMenu from "../../components/MainMenu/index";
 import Footer from "../../components/Footer/index";
     
 
 const Home = ( history ) => {   
     return (  
         <div> 
-            <MenuPrincipal/>          
+            <MainMenu/>          
             <Segment style={{ padding: '8em 0em' }} vertical secondary>
                 <Grid container stackable verticalAlign='middle'>
                     <Grid.Row>
