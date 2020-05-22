@@ -8,8 +8,7 @@ const MainMenu = () => {
   const history = useHistory();
   const goTo = (item, path) => () => {
     history.push(path);
-    setActiveItem(item);
-    // izi pici :v el home despues lo hago :c
+    setActiveItem(item);    
   }
   return (
     <Menu stackable borderless fluid={true} fixed='top'>
